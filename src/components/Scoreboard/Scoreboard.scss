@@ -1,0 +1,29 @@
+@import "./src/style/_config";
+
+.Scoreboard {
+  p {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    padding: 0.1rem;
+    font-size: 1.2rem;
+    position: relative;
+  }
+
+  .Title {
+    color: blue;
+    text-align: center;
+  }
+
+  .ResetButton {
+    padding: 1rem;
+
+    &:hover {
+      background-color: red;
+      transition-duration: 1.5s;
+    }
+  }
+}
